@@ -1,0 +1,5 @@
+this addAction ["Action",{deleteVehicle VariableName;},"(_target distance _this) < 2"]; // Add this line to object init, ensure that "Action" and VariableName are changed.
+                                                                                        // VariableName must match the variable name in the Object: Init. 
+                                                                                        // This script destroys the item, if you wish for it to complete sync it to a trigger that's condition is !alive VariableName; and sync that to task state.
+                                                                                        
+                                                                                      
